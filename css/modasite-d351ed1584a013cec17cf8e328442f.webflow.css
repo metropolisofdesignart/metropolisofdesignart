@@ -547,6 +547,11 @@ body {
   letter-spacing: 1px;
 }
 
+.nav-link-6.w--current {
+  color: var(--marron);
+  text-decoration: none;
+}
+
 .nav-menu {
   margin-right: 0;
 }
