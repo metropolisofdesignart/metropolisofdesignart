@@ -2268,6 +2268,7 @@ body {
   color: #fff;
   font-size: 16px;
   transition: all .4s;
+  display: none;
 }
 
 .nav-link-3-copy:hover {
