@@ -88,6 +88,22 @@
   box-shadow: 0 0 3px 1px #3898ec;
 }
 
+.w-embed-youtubevideo {
+  width: 100%;
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/youtube-placeholder.2b05e7d68d.svg');
+  background-position: 50%;
+  background-size: cover;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+}
+
+.w-embed-youtubevideo:empty {
+  min-height: 75px;
+  padding-bottom: 56.25%;
+}
+
 .w-layout-vflex {
   flex-direction: column;
   align-items: flex-start;
@@ -692,6 +708,7 @@ body {
   font-size: 22px;
   font-weight: 500;
   transition: all .4s;
+  display: none;
 }
 
 .partboton:hover {
@@ -876,8 +893,8 @@ body {
 }
 
 .sec3ph {
-  height: 80vh;
-  max-height: 80vh;
+  height: 100%;
+  max-height: 100%;
   padding: 100px 300px 70px;
 }
 
@@ -915,7 +932,7 @@ body {
   max-width: 300px;
   filter: grayscale();
   background-color: #f1f1f1;
-  background-image: url('../images/figure2.png');
+  background-image: url('../images/gustavo.png');
   background-position: 50%;
   background-size: cover;
   transition: all .4s;
@@ -931,7 +948,7 @@ body {
   text-align: center;
   margin-top: 27px;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 19px;
 }
 
 .foother {
@@ -950,7 +967,8 @@ body {
 }
 
 .whitefot {
-  height: 13vh;
+  height: 15vh;
+  max-height: 15vh;
 }
 
 .contfooter {
@@ -1006,7 +1024,7 @@ body {
   max-width: 300px;
   filter: grayscale();
   background-color: #f1f1f1;
-  background-image: url('../images/figure2.png');
+  background-image: url('../images/claudia.png');
   background-position: 50% 0;
   background-size: cover;
   transition: all .4s;
@@ -1023,7 +1041,7 @@ body {
   max-width: 300px;
   filter: grayscale();
   background-color: #f1f1f1;
-  background-image: url('../images/figure2.png');
+  background-image: url('../images/marcelo.png');
   background-position: 50%;
   background-size: cover;
   transition: all .4s;
@@ -1353,6 +1371,7 @@ body {
   padding-top: 0;
   padding-left: 10px;
   padding-right: 10px;
+  display: flex;
 }
 
 .h3-contest {
@@ -1381,6 +1400,7 @@ body {
   font-family: Montserrat, sans-serif;
   font-size: 15px;
   font-weight: 400;
+  display: none;
 }
 
 .wbs-accordion-2-description {
@@ -1467,7 +1487,7 @@ body {
 .wbs-section-2 {
   flex-direction: column;
   padding: 6.25rem 5%;
-  display: flex;
+  display: none;
 }
 
 .herosecnews {
@@ -1480,8 +1500,8 @@ body {
 }
 
 .secnews {
-  height: 110vh;
-  max-height: 110vh;
+  height: 100%;
+  max-height: 100%;
   background-color: var(--bluepage);
   flex-direction: column;
   justify-content: flex-start;
@@ -2031,6 +2051,7 @@ body {
   font-size: 21px;
   font-weight: 600;
   transition: all .4s;
+  display: none;
 }
 
 .button:hover {
@@ -2602,6 +2623,61 @@ body {
   max-width: 80%;
 }
 
+.youtube {
+  border-radius: 20px;
+}
+
+.picbl04 {
+  width: 300px;
+  height: 300px;
+  max-height: 300px;
+  max-width: 300px;
+  filter: grayscale();
+  background-color: #f1f1f1;
+  background-image: url('../images/sol.png');
+  background-position: 50%;
+  background-size: cover;
+  transition: all .4s;
+}
+
+.picbl04:hover {
+  filter: none;
+}
+
+.picbl05 {
+  width: 300px;
+  height: 300px;
+  max-height: 300px;
+  max-width: 300px;
+  filter: grayscale();
+  background-color: #f1f1f1;
+  background-image: url('../images/dilema.png');
+  background-position: 50%;
+  background-size: cover;
+  transition: all .4s;
+}
+
+.picbl05:hover {
+  filter: none;
+}
+
+.picbl06 {
+  width: 300px;
+  height: 300px;
+  max-height: 300px;
+  max-width: 300px;
+  filter: grayscale();
+  background-color: #f1f1f1;
+  background-image: url('../images/monica.png');
+  background-position: 50%;
+  background-size: cover;
+  transition: all .4s;
+}
+
+.picbl06:hover {
+  filter: none;
+}
+
 @media screen and (max-width: 991px) {
   .walsh-menu-button {
     color: #fff;
@@ -2739,8 +2815,9 @@ body {
   }
 
   .contestsect._02 {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   .h2 {
@@ -2776,6 +2853,16 @@ body {
     max-height: 100%;
     padding-left: 100px;
     padding-right: 100px;
+  }
+
+  .whitefot {
+    height: 15vh;
+  }
+
+  .downfotter {
+    height: 58px;
+    margin-left: 100px;
+    margin-right: 100px;
   }
 
   .pabout {
@@ -2894,9 +2981,34 @@ body {
     line-height: 24px;
   }
 
+  .container3pics {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
   .picblok1 {
     height: 250px;
     max-height: 250px;
+  }
+
+  .picbl01 {
+    width: 250px;
+    max-width: 250px;
+    background-position: 50% 0;
+  }
+
+  .whitefot {
+    height: 15vh;
+  }
+
+  .picbl02, .picbl03 {
+    width: 250px;
+    max-width: 250px;
+    background-position: 50% 0;
+  }
+
+  .h5 {
+    font-size: 26px;
   }
 
   .textab01 {
@@ -2919,6 +3031,11 @@ body {
   .h2-contest {
     font-size: 31px;
     line-height: 40px;
+  }
+
+  .h3-contest {
+    font-size: 27px;
+    line-height: 38px;
   }
 
   .wbs-section-2 {
@@ -2954,6 +3071,17 @@ body {
 
   .walsh-rounded-box-banner {
     grid-row-gap: 1.5em;
+  }
+
+  .picbl04, .picbl05, .picbl06 {
+    width: 250px;
+    max-width: 250px;
+    background-position: 50% 0;
+  }
+
+  .quick-stack-5 {
+    grid-column-gap: 5px;
+    grid-row-gap: 20px;
   }
 }
 
@@ -3135,12 +3263,9 @@ body {
   }
 
   .colorcontainer {
-    height: 45vh;
-    background-image: linear-gradient(to bottom, var(--bluepage), rgba(255, 255, 255, 0) 67%);
+    height: 100%;
+    background-image: none;
     background-position: 0 0;
-    background-repeat: repeat;
-    background-size: auto;
-    background-attachment: scroll;
   }
 
   .whitefot {
@@ -3289,8 +3414,8 @@ body {
   }
 
   .herosecontest {
-    height: 60vh;
-    max-height: 60vh;
+    height: 50vh;
+    max-height: 50vh;
     overflow: hidden;
   }
 
@@ -3303,6 +3428,11 @@ body {
     padding-left: 0;
     padding-right: 0;
     overflow: hidden;
+  }
+
+  .h3-contest {
+    font-size: 20px;
+    line-height: 33px;
   }
 
   .contrules {
@@ -3539,7 +3669,7 @@ body {
 }
 
 #w-node-e7ced1eb-670f-384b-7f94-d25bda72df78-2ede0b5c {
-  grid-template-rows: auto;
+  grid-template-rows: auto auto;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
