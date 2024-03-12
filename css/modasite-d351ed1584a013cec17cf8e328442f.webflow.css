@@ -673,7 +673,7 @@ body {
   font-size: 40px;
   font-style: italic;
   font-weight: 400;
-  display: none;
+  display: block;
 }
 
 .h2.hero {
@@ -3344,8 +3344,8 @@ body {
   }
 
   .herosec {
-    height: 70vh;
-    max-height: 70vh;
+    height: 75vh;
+    max-height: 75vh;
     overflow: hidden;
   }
 
