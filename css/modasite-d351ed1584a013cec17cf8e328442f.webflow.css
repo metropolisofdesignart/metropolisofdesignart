@@ -69,10 +69,10 @@
 }
 
 .w-checkbox-input--inputType-custom {
-  width: 12px;
-  height: 12px;
   border: 1px solid #ccc;
   border-radius: 2px;
+  width: 12px;
+  height: 12px;
 }
 
 .w-checkbox-input--inputType-custom.w--redirected-checked {
@@ -89,10 +89,10 @@
 }
 
 .w-embed-youtubevideo {
-  width: 100%;
   background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/youtube-placeholder.2b05e7d68d.svg');
   background-position: 50%;
   background-size: cover;
+  width: 100%;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
@@ -141,10 +141,10 @@ body {
 }
 
 .walsh-button-hover-fill {
-  width: 5em;
-  height: 5em;
   background-color: #000;
   border-radius: 100%;
+  width: 5em;
+  height: 5em;
   margin-left: auto;
   margin-right: auto;
   position: absolute;
@@ -159,11 +159,11 @@ body {
 }
 
 .walsh-arrow-wrapper {
-  height: 12px;
   grid-row-gap: 0px;
   flex-direction: column;
   flex: none;
   align-items: center;
+  height: 12px;
   display: flex;
   overflow: hidden;
 }
@@ -303,26 +303,26 @@ body {
 
 .walsh-brand-block {
   z-index: 2;
+  align-items: center;
   width: auto;
   height: 100%;
-  align-items: center;
   display: flex;
 }
 
 .walsh-nav-grid-1 {
-  width: 100%;
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: stretch;
   align-items: center;
   justify-items: center;
+  width: 100%;
 }
 
 .walsh-inner-nav {
-  width: 100%;
-  height: 100%;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 100%;
   display: flex;
 }
 
@@ -604,8 +604,6 @@ body {
 }
 
 .herosec {
-  height: 90vh;
-  max-height: 90vh;
   background-image: linear-gradient(to top, #1a2b57, rgba(255, 255, 255, 0) 35%), url('../images/heropic.jpg');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
@@ -613,47 +611,49 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
+  height: 90vh;
+  max-height: 90vh;
   display: flex;
 }
 
 .title {
-  width: 100%;
-  height: 178px;
   background-image: url('../images/title.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
+  width: 100%;
+  height: 178px;
 }
 
 .contestsect {
-  height: 60vh;
-  max-height: 60vh;
   justify-content: center;
   align-items: center;
+  height: 60vh;
+  max-height: 60vh;
   display: flex;
 }
 
 .contestsect._02 {
-  height: 100%;
-  max-height: 100%;
   background-color: var(--bluepage);
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  height: 100%;
+  max-height: 100%;
   padding: 50px 250px 0;
 }
 
 .calltocontest {
-  width: 45%;
-  height: 277px;
-  max-height: 277px;
-  max-width: 45%;
   background-color: #3e4a69;
   border: 1px #000;
   border-radius: 20px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 45%;
+  max-width: 45%;
+  height: 277px;
+  max-height: 277px;
   transition: all .4s;
   display: none;
 }
@@ -721,23 +721,23 @@ body {
 }
 
 .brandsline {
-  height: 200px;
-  max-height: 200px;
-  max-width: 100%;
   background-color: #c69d80;
   justify-content: center;
   align-items: center;
+  max-width: 100%;
+  height: 200px;
+  max-height: 200px;
   display: none;
   position: static;
   overflow: hidden;
 }
 
 .quick-stack {
-  width: 70%;
-  max-width: 70%;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   flex: 0 auto;
+  width: 70%;
+  max-width: 70%;
 }
 
 .grid {
@@ -762,19 +762,19 @@ body {
 }
 
 .blok1 {
-  height: 350px;
-  max-height: 350px;
   background-color: #f1f1f1;
   justify-content: center;
+  height: 350px;
+  max-height: 350px;
   display: flex;
 }
 
 .newtitle {
-  width: 50%;
-  max-width: 50%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 50%;
+  max-width: 50%;
   transition: all .6s;
   display: flex;
 }
@@ -786,12 +786,12 @@ body {
 }
 
 .photo01 {
-  width: 50%;
-  max-width: 50%;
   background-image: url('../images/miami-district.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 50%;
+  max-width: 50%;
   transition: all .4s;
 }
 
@@ -837,21 +837,21 @@ body {
 }
 
 .blok2 {
-  height: 350px;
-  max-height: 350px;
   background-color: #f1f1f1;
   justify-content: center;
+  height: 350px;
+  max-height: 350px;
   margin-top: 100px;
   display: none;
 }
 
 .photo02 {
-  width: 50%;
-  max-width: 50%;
   background-image: url('../images/charlota-blunarova-r5xHI_H44aM-unsplash-1.jpg');
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 50%;
+  max-width: 50%;
   transition: all .4s;
 }
 
@@ -862,12 +862,12 @@ body {
 }
 
 .carrousel {
-  width: 100%;
-  height: 39px;
-  max-height: 39px;
-  max-width: 100%;
   cursor: default;
   background-color: #f1f1f1;
+  width: 100%;
+  max-width: 100%;
+  height: 39px;
+  max-height: 39px;
   padding-bottom: 0;
   transition: all .2s;
   overflow: hidden;
@@ -878,10 +878,10 @@ body {
 }
 
 .inner-carrousel {
-  height: 39px;
-  max-height: 39px;
   word-break: normal;
   align-items: center;
+  height: 39px;
+  max-height: 39px;
   padding-bottom: 5px;
   display: flex;
 }
@@ -920,29 +920,29 @@ body {
 }
 
 .picblok1 {
-  width: 100%;
-  height: 400px;
-  max-height: 400px;
-  max-width: 100%;
   background-color: rgba(0, 0, 0, 0);
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  max-width: 100%;
+  height: 400px;
+  max-height: 400px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
 }
 
 .picbl01 {
-  width: 300px;
-  height: 300px;
-  max-height: 300px;
-  max-width: 300px;
   filter: grayscale();
   background-color: #f1f1f1;
   background-image: url('../images/gustavo.png');
   background-position: 50%;
   background-size: cover;
+  width: 300px;
+  max-width: 300px;
+  height: 300px;
+  max-height: 300px;
   transition: all .4s;
 }
 
@@ -951,9 +951,9 @@ body {
 }
 
 .ppn1 {
+  text-align: center;
   width: 300px;
   max-width: 300px;
-  text-align: center;
   margin-top: 27px;
   margin-bottom: 0;
   font-size: 19px;
@@ -965,13 +965,13 @@ body {
 }
 
 .colorcontainer {
-  height: 37vh;
   background-color: #1a2b57;
   background-image: linear-gradient(to bottom, var(--bluepage), rgba(255, 255, 255, 0) 67%), url('../images/fondo2.jpg');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
   background-attachment: scroll, fixed;
+  height: 37vh;
 }
 
 .whitefot {
@@ -987,11 +987,11 @@ body {
 }
 
 .text-field {
-  width: 430px;
   color: var(--flowstica-webflow-library-white-smoke);
   background-color: rgba(255, 255, 255, 0);
   border: 1px solid #fff;
   border-top: 0 solid #000;
+  width: 430px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1026,15 +1026,15 @@ body {
 }
 
 .picbl02 {
-  width: 300px;
-  height: 300px;
-  max-height: 300px;
-  max-width: 300px;
   filter: grayscale();
   background-color: #f1f1f1;
   background-image: url('../images/claudia.png');
   background-position: 50% 0;
   background-size: cover;
+  width: 300px;
+  max-width: 300px;
+  height: 300px;
+  max-height: 300px;
   transition: all .4s;
 }
 
@@ -1043,15 +1043,15 @@ body {
 }
 
 .picbl03 {
-  width: 300px;
-  height: 300px;
-  max-height: 300px;
-  max-width: 300px;
   filter: grayscale();
   background-color: #f1f1f1;
   background-image: url('../images/marcelo.png');
   background-position: 50%;
   background-size: cover;
+  width: 300px;
+  max-width: 300px;
+  height: 300px;
+  max-height: 300px;
   transition: all .4s;
 }
 
@@ -1060,11 +1060,11 @@ body {
 }
 
 .downfotter {
-  height: 55px;
   background-image: url('../images/MODA_1.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
+  height: 55px;
   margin-top: 22px;
   margin-left: 350px;
   margin-right: 350px;
@@ -1089,12 +1089,12 @@ body {
 }
 
 .herosec-about {
-  height: 90vh;
-  max-height: 90vh;
   background-image: linear-gradient(to top, var(--bluepage) 5%, rgba(255, 255, 255, 0) 50%);
   background-position: 0 0;
   justify-content: center;
   align-items: flex-end;
+  height: 90vh;
+  max-height: 90vh;
   display: flex;
 }
 
@@ -1116,29 +1116,29 @@ body {
 }
 
 .sec2about {
-  height: 60vh;
-  max-height: 50vh;
   background-color: var(--bluepage);
   border: 1px #000;
+  height: 60vh;
+  max-height: 50vh;
   margin-bottom: 0;
   padding-top: 135px;
   padding-bottom: 36px;
 }
 
 .fullcontainerabout {
-  height: 330px;
-  max-height: 330px;
   background-color: #f1f1f1;
   justify-content: space-between;
+  height: 330px;
+  max-height: 330px;
   display: flex;
 }
 
 .photo01ab {
-  width: 50%;
-  max-width: 50%;
   background-image: url('../images/aboutn.jpg');
   background-position: 50%;
   background-size: cover;
+  width: 50%;
+  max-width: 50%;
   transition: all .4s;
 }
 
@@ -1147,21 +1147,21 @@ body {
 }
 
 .textab01 {
-  width: 50%;
-  max-width: 50%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 50%;
+  max-width: 50%;
   padding-left: 50px;
   padding-right: 50px;
   display: flex;
 }
 
 .sec3about {
-  height: 100%;
-  max-height: 100%;
   flex-direction: column;
   align-items: center;
+  height: 100%;
+  max-height: 100%;
   padding-top: 30px;
   display: flex;
 }
@@ -1177,18 +1177,16 @@ body {
 }
 
 .aboutblockstaff {
-  width: 750px;
-  height: 238px;
   justify-content: space-between;
   align-items: center;
+  width: 750px;
+  height: 238px;
   margin-top: 50px;
   margin-bottom: 0;
   display: none;
 }
 
 .picstaff {
-  width: 221px;
-  height: 360px;
   filter: grayscale();
   color: #f1f1f1;
   background-color: rgba(241, 241, 241, .95);
@@ -1196,6 +1194,8 @@ body {
   background-position: 50% 0;
   background-size: cover;
   border-radius: 9px;
+  width: 221px;
+  height: 360px;
   transition: all .4s;
 }
 
@@ -1231,12 +1231,12 @@ body {
 }
 
 .secagenda {
-  height: 110vh;
-  max-height: 110vh;
   background-color: var(--bluepage);
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  height: 110vh;
+  max-height: 110vh;
   margin-left: 0;
   margin-right: 0;
   padding-left: 300px;
@@ -1245,25 +1245,25 @@ body {
 }
 
 .herosecagenda {
-  height: 90vh;
-  max-height: 90vh;
   background-image: linear-gradient(to top, var(--bluepage), rgba(255, 255, 255, 0) 26%);
   background-position: 0 0;
   background-repeat: repeat;
   background-size: auto;
   justify-content: center;
   align-items: flex-end;
+  height: 90vh;
+  max-height: 90vh;
   display: flex;
 }
 
 .agendablok {
-  width: 100%;
-  height: 127px;
-  max-height: 100%;
-  max-width: 100%;
   flex-wrap: nowrap;
   flex: 1;
   align-items: stretch;
+  width: 100%;
+  max-width: 100%;
+  height: 127px;
+  max-height: 100%;
   margin-top: 65px;
   display: flex;
 }
@@ -1276,8 +1276,6 @@ body {
 }
 
 .dayblk {
-  width: 30%;
-  max-width: 30%;
   border-bottom: 1px none var(--flowstica-webflow-library-white-smoke);
   background-color: var(--bluepage);
   object-fit: fill;
@@ -1289,6 +1287,8 @@ body {
   border-left: 1px #000;
   justify-content: center;
   align-items: center;
+  width: 30%;
+  max-width: 30%;
   margin-bottom: -50px;
   padding-bottom: 0;
   display: flex;
@@ -1300,12 +1300,12 @@ body {
 }
 
 .textblkag {
-  width: 100%;
-  max-width: 100%;
   border-style: none none solid;
   border-width: 0 1px 1px;
   border-color: black var(--flowstica-webflow-library-white-smoke) var(--flowstica-webflow-library-white-smoke) black;
   align-items: center;
+  width: 100%;
+  max-width: 100%;
   margin-bottom: -50px;
   display: flex;
 }
@@ -1333,12 +1333,12 @@ body {
 }
 
 .herosecontest {
-  height: 500px;
-  max-height: 500px;
   background-color: rgba(198, 157, 128, 0);
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 500px;
+  max-height: 500px;
   display: flex;
   overflow: visible;
 }
@@ -1372,9 +1372,9 @@ body {
 }
 
 .contestcontainer {
+  background-color: #f1f1f1;
   height: 100%;
   max-height: 100%;
-  background-color: #f1f1f1;
   margin-top: 0;
   padding-top: 0;
   padding-left: 10px;
@@ -1432,9 +1432,9 @@ body {
 }
 
 .wbs-accordion-2-icon-minus {
+  background-color: var(--flowstica-webflow-library-white-smoke);
   width: 20px;
   height: 2px;
-  background-color: var(--flowstica-webflow-library-white-smoke);
   position: absolute;
   top: auto;
   bottom: auto;
@@ -1444,16 +1444,16 @@ body {
 }
 
 .wbs-accordion-2-icon-plus {
+  background-color: var(--flowstica-webflow-library-white-smoke);
   width: 20px;
   height: 2px;
-  background-color: var(--flowstica-webflow-library-white-smoke);
 }
 
 .wbs-accordion-2-icon-wrap {
-  width: 20px;
-  height: 20px;
   justify-content: center;
   align-items: center;
+  width: 20px;
+  height: 20px;
   display: flex;
   position: relative;
 }
@@ -1473,13 +1473,13 @@ body {
 }
 
 .wbs-accordion-2 {
-  width: 60%;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
   flex-direction: column;
   grid-template-rows: auto auto;
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -1499,21 +1499,21 @@ body {
 }
 
 .herosecnews {
-  height: 90vh;
-  max-height: 90vh;
   background-image: linear-gradient(to top, var(--bluepage), rgba(255, 255, 255, 0) 42%);
   justify-content: center;
   align-items: flex-end;
+  height: 90vh;
+  max-height: 90vh;
   display: flex;
 }
 
 .secnews {
-  height: 100%;
-  max-height: 100%;
   background-color: var(--bluepage);
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  height: 100%;
+  max-height: 100%;
   padding-left: 0;
   padding-right: 0;
   display: flex;
@@ -1543,10 +1543,10 @@ body {
 }
 
 .udesly-submit-button {
-  min-height: 40px;
   background-color: #171717;
   border-radius: 6px;
   flex: none;
+  min-height: 40px;
   padding: 10px 16px;
   transition: all .25s ease-out;
 }
@@ -1579,19 +1579,15 @@ body {
 }
 
 .udesly-textarea {
-  min-height: 155px;
   border: 1px solid #e6e6e6;
   border-radius: 6px;
+  min-height: 155px;
   margin-bottom: 32px;
   padding: 8px 12px;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
   position: relative;
-}
-
-.udesly-textarea::-ms-input-placeholder {
-  color: #a3a3a3;
 }
 
 .udesly-textarea::placeholder {
@@ -1621,11 +1617,11 @@ body {
 }
 
 .udesly-checkbox {
-  width: 18px;
-  height: 18px;
   border-width: 1.5px;
   border-color: #d4d4d4;
   border-radius: 50%;
+  width: 18px;
+  height: 18px;
   margin-top: 0;
   margin-right: 12px;
 }
@@ -1700,10 +1696,6 @@ body {
   border-bottom-color: #141414;
 }
 
-.udesly-text-fiel-contact::-ms-input-placeholder {
-  color: #a3a3a3;
-}
-
 .udesly-text-fiel-contact::placeholder {
   color: #a3a3a3;
 }
@@ -1754,49 +1746,49 @@ body {
 }
 
 .newscontainer {
-  width: 100%;
-  height: 220px;
-  max-width: 100%;
   background-color: rgba(0, 0, 0, 0);
   justify-content: center;
   align-items: center;
+  width: 100%;
+  max-width: 100%;
+  height: 220px;
   display: flex;
 }
 
 .quick-stack-3 {
-  width: 70%;
-  max-width: 70%;
   grid-row-gap: 58px;
   color: var(--marron);
   flex: 0 auto;
+  width: 70%;
+  max-width: 70%;
   margin-top: 50px;
 }
 
 .picnews1 {
-  width: 200px;
-  height: 200px;
-  max-height: 200px;
-  max-width: 200px;
   background-image: url('../images/freestocks-_3Q3tsJ01nc-unsplash.jpg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 200px;
+  max-width: 200px;
+  height: 200px;
+  max-height: 200px;
 }
 
 .text {
   width: 53%;
+  max-width: 53%;
   height: 220px;
   max-height: 220px;
-  max-width: 53%;
 }
 
 .flex-block {
-  width: 56%;
-  height: 220px;
-  max-height: 220px;
   justify-content: center;
   align-self: auto;
   align-items: stretch;
+  width: 56%;
+  height: 220px;
+  max-height: 220px;
   margin-left: 30px;
 }
 
@@ -1826,14 +1818,14 @@ body {
 }
 
 .herosecpress {
-  height: 90vh;
-  max-height: 90vh;
   background-image: linear-gradient(to top, var(--bluepage), rgba(255, 255, 255, 0) 27%), url('../images/vanilla-bear-films-JEwNQerg3Hs-unsplash.jpg');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
   justify-content: center;
   align-items: flex-end;
+  height: 90vh;
+  max-height: 90vh;
   display: flex;
 }
 
@@ -1845,24 +1837,24 @@ body {
 }
 
 .mag01 {
-  width: 230px;
-  height: 450px;
-  max-height: 450px;
-  max-width: 230px;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  width: 230px;
+  max-width: 230px;
+  height: 450px;
+  max-height: 450px;
   display: flex;
 }
 
 .magpic1 {
-  width: 100%;
-  height: 90%;
-  max-height: 90%;
-  max-width: 100%;
   background-image: url('../images/mag01.jpg');
   background-position: 50%;
   background-size: cover;
+  width: 100%;
+  max-width: 100%;
+  height: 90%;
+  max-height: 90%;
 }
 
 .parmag {
@@ -1887,13 +1879,13 @@ body {
 }
 
 .logo-n {
-  width: 150px;
-  height: 150px;
-  max-height: 150px;
-  max-width: 150px;
   background-image: url('../images/nentretainmentwhite.png');
   background-position: 50%;
   background-size: cover;
+  width: 150px;
+  max-width: 150px;
+  height: 150px;
+  max-height: 150px;
   margin-right: 20px;
   transition: all .4s ease-out;
 }
@@ -1903,12 +1895,12 @@ body {
 }
 
 .face {
-  width: 40px;
-  height: 40px;
   background-image: url('../images/face_1face.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
+  width: 40px;
+  height: 40px;
   margin-right: 0;
   transition: all .4s;
 }
@@ -1918,12 +1910,12 @@ body {
 }
 
 .insta {
-  width: 40px;
-  height: 40px;
   background-image: url('../images/insta_1insta.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
+  width: 40px;
+  height: 40px;
   transition: all .4s;
 }
 
@@ -1932,12 +1924,12 @@ body {
 }
 
 .tik {
-  width: 40px;
-  height: 40px;
   background-image: url('../images/tik_1tik.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
+  width: 40px;
+  height: 40px;
   transition: all .4s;
 }
 
@@ -1946,12 +1938,12 @@ body {
 }
 
 .exx {
-  width: 40px;
-  height: 40px;
   background-image: url('../images/x_1x.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
+  width: 40px;
+  height: 40px;
   transition: all .4s;
 }
 
@@ -1960,12 +1952,12 @@ body {
 }
 
 .yout {
-  width: 40px;
-  height: 40px;
   background-image: url('../images/youtu_1youtu.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
+  width: 40px;
+  height: 40px;
   transition: all .4s;
 }
 
@@ -1974,12 +1966,12 @@ body {
 }
 
 .linkd {
-  width: 40px;
-  height: 40px;
   background-image: url('../images/lk_1lk.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
+  width: 40px;
+  height: 40px;
   transition: all .4s;
   display: block;
 }
@@ -2039,8 +2031,8 @@ body {
 }
 
 .gradient-bg {
-  width: 900vw;
   background-image: repeating-radial-gradient(circle farthest-corner at 50% 50%, var(--bluepage), var(--marron) 25%, var(--bluepage) 50%, var(--marron) 75%, var(--bluepage));
+  width: 900vw;
   position: absolute;
   top: 0%;
   bottom: 0%;
@@ -2068,19 +2060,19 @@ body {
 }
 
 .background-video {
+  color: var(--marron);
   width: 100%;
+  max-width: 100%;
   height: 100%;
   max-height: 100%;
-  max-width: 100%;
-  color: var(--marron);
   position: static;
 }
 
 .background-video-2 {
   width: 100%;
+  max-width: 100%;
   height: 100%;
   max-height: 100%;
-  max-width: 100%;
   position: absolute;
   top: 0%;
   bottom: 0%;
@@ -2090,8 +2082,8 @@ body {
 
 .background-video-3 {
   width: 100%;
-  height: 100%;
   max-width: 100%;
+  height: 100%;
   position: absolute;
   top: 0%;
   bottom: 0%;
@@ -2101,15 +2093,15 @@ body {
 
 .grainw {
   z-index: 5;
-  width: 100%;
-  height: auto;
-  max-height: none;
-  max-width: none;
   opacity: .47;
   mix-blend-mode: overlay;
   background-image: url('../images/Grain.gif');
   background-position: 50%;
   background-size: auto;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  max-height: none;
   position: absolute;
   top: 0%;
   bottom: 0%;
@@ -2132,13 +2124,13 @@ body {
 }
 
 .logo-m {
-  width: 150px;
-  height: 150px;
-  max-height: 150px;
-  max-width: 150px;
   background-image: url('../images/modawhite.png');
   background-position: 50%;
   background-size: cover;
+  width: 150px;
+  max-width: 150px;
+  height: 150px;
+  max-height: 150px;
   margin-right: 20px;
   transition: all .4s ease-out;
 }
@@ -2148,13 +2140,13 @@ body {
 }
 
 .logo-q {
-  width: 150px;
-  height: 150px;
-  max-height: 150px;
-  max-width: 150px;
   background-image: url('../images/mmddwhite.png');
   background-position: 50%;
   background-size: cover;
+  width: 150px;
+  max-width: 150px;
+  height: 150px;
+  max-height: 150px;
   margin-right: 20px;
   transition: all .4s ease-out;
 }
@@ -2164,13 +2156,13 @@ body {
 }
 
 .logo-mdd {
-  width: 150px;
-  height: 150px;
-  max-height: 150px;
-  max-width: 150px;
   background-image: url('../images/qsbwhite.png');
   background-position: 50%;
   background-size: cover;
+  width: 150px;
+  max-width: 150px;
+  height: 150px;
+  max-height: 150px;
   margin-right: 20px;
   transition: all .4s ease-out;
 }
@@ -2180,23 +2172,23 @@ body {
 }
 
 .logowrap {
-  width: 450px;
-  height: auto;
-  max-width: 450px;
   justify-content: center;
   align-items: center;
+  width: 450px;
+  max-width: 450px;
+  height: auto;
   display: flex;
 }
 
 .logn {
-  width: 200px;
-  height: 200px;
-  max-height: 200px;
-  max-width: 200px;
   filter: contrast(200%);
   background-image: url('../images/nentretainment.png');
   background-position: 50%;
   background-size: cover;
+  width: 200px;
+  max-width: 200px;
+  height: 200px;
+  max-height: 200px;
   margin-right: 30px;
 }
 
@@ -2209,14 +2201,14 @@ body {
 }
 
 .div-block-3 {
-  width: 200px;
-  height: 200px;
-  max-height: 200px;
-  max-width: 200px;
   filter: contrast(200%);
   background-image: url('../images/qsb.png');
   background-position: 50%;
   background-size: contain;
+  width: 200px;
+  max-width: 200px;
+  height: 200px;
+  max-height: 200px;
   margin-left: 30px;
 }
 
@@ -2229,10 +2221,10 @@ body {
 }
 
 .unsplash-image {
-  width: 100%;
-  height: auto;
   object-fit: contain;
   object-position: 50% 50%;
+  width: 100%;
+  height: auto;
   display: block;
 }
 
@@ -2274,10 +2266,10 @@ body {
 }
 
 .nadia {
-  width: 750px;
-  height: 360px;
   justify-content: center;
   align-items: center;
+  width: 750px;
+  height: 360px;
   margin-top: 0;
   margin-bottom: 0;
   display: flex;
@@ -2324,8 +2316,6 @@ body {
 }
 
 .herocontact {
-  height: 80vh;
-  max-height: 80vh;
   background-image: linear-gradient(360deg, var(--bluepage), rgba(255, 255, 255, 0) 35%), url('../images/Design-District-Flys-Eye-Dome-1440x900.jpg');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
@@ -2333,6 +2323,8 @@ body {
   background-attachment: scroll, scroll;
   justify-content: center;
   align-items: flex-end;
+  height: 80vh;
+  max-height: 80vh;
   display: flex;
 }
 
@@ -2343,20 +2335,20 @@ body {
 }
 
 .walsh-cover-image {
-  width: 100%;
-  height: 100%;
   object-fit: cover;
   flex: 1;
+  width: 100%;
+  height: 100%;
 }
 
 .walsh-inner-rounded-banner-image {
-  max-width: 50%;
-  min-height: 45em;
   grid-row-gap: 1.5em;
   text-align: left;
   flex-direction: column;
   flex: none;
   align-items: flex-start;
+  max-width: 50%;
+  min-height: 45em;
   display: flex;
 }
 
@@ -2387,10 +2379,10 @@ body {
 }
 
 .walsh-button-hover-fill-2 {
-  width: 5em;
-  height: 5em;
   background-color: #000;
   border-radius: 100%;
+  width: 5em;
+  height: 5em;
   margin-left: auto;
   margin-right: auto;
   position: absolute;
@@ -2405,11 +2397,11 @@ body {
 }
 
 .walsh-arrow-wrapper-2 {
-  height: 12px;
   grid-row-gap: 0px;
   flex-direction: column;
   flex: none;
   align-items: center;
+  height: 12px;
   display: flex;
   overflow: hidden;
 }
@@ -2476,20 +2468,18 @@ body {
 }
 
 .walsh-inner-rounded-banner {
-  height: 100%;
   grid-row-gap: 1.5em;
   text-align: left;
   flex-direction: column;
   flex: 1;
   align-self: center;
   align-items: flex-start;
+  height: 100%;
   padding: 6em;
   display: flex;
 }
 
 .walsh-rounded-box-banner {
-  width: 100%;
-  max-width: 1480px;
   grid-row-gap: 1em;
   text-align: center;
   background-color: rgba(255, 255, 255, .14);
@@ -2497,6 +2487,8 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: stretch;
+  width: 100%;
+  max-width: 1480px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -2505,9 +2497,9 @@ body {
 
 .walsh-container {
   z-index: 2;
+  flex: none;
   width: 100%;
   max-width: 1480px;
-  flex: none;
   margin-left: auto;
   margin-right: auto;
   padding-left: 20px;
@@ -2528,12 +2520,12 @@ body {
 
 .back {
   z-index: 0;
-  height: 100%;
-  max-height: 100%;
   background-image: url('../images/backfull.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
+  max-height: 100%;
   position: absolute;
   top: 0%;
   bottom: 0%;
@@ -2543,24 +2535,24 @@ body {
 
 .sky {
   z-index: 1;
-  height: 100%;
-  max-height: 100%;
   background-image: url('../images/sky.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
+  height: 100%;
+  max-height: 100%;
   position: relative;
   top: -3289px;
 }
 
 .palms {
   z-index: 2;
-  height: 100%;
-  max-height: 100%;
   background-image: url('../images/palms.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
+  height: 100%;
+  max-height: 100%;
   position: relative;
   top: -300%;
   bottom: 0%;
@@ -2570,36 +2562,36 @@ body {
 
 .div-block-4 {
   z-index: 3;
-  height: 100%;
-  max-height: 100%;
   background-image: url('../images/sides.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
+  height: 100%;
+  max-height: 100%;
   position: relative;
   top: 0;
 }
 
 .div-block-5 {
   z-index: 6;
-  height: 100%;
-  max-height: 100%;
   background-image: url('../images/domo.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
+  height: 100%;
+  max-height: 100%;
   position: relative;
   top: -815px;
 }
 
 .tttt {
   z-index: 1;
-  height: 100%;
-  max-height: 100%;
   background-image: url('../images/title.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
+  height: 100%;
+  max-height: 100%;
   position: absolute;
   top: -24%;
   bottom: 0%;
@@ -2609,12 +2601,12 @@ body {
 
 .domo {
   z-index: 2;
-  height: 100%;
-  max-height: 100%;
   background-image: url('../images/domo.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
+  max-height: 100%;
   position: absolute;
   top: 0%;
   bottom: 0%;
@@ -2636,15 +2628,15 @@ body {
 }
 
 .picbl04 {
-  width: 300px;
-  height: 300px;
-  max-height: 300px;
-  max-width: 300px;
   filter: grayscale();
   background-color: #f1f1f1;
   background-image: url('../images/sol.png');
   background-position: 50%;
   background-size: cover;
+  width: 300px;
+  max-width: 300px;
+  height: 300px;
+  max-height: 300px;
   transition: all .4s;
 }
 
@@ -2653,15 +2645,15 @@ body {
 }
 
 .picbl05 {
-  width: 300px;
-  height: 300px;
-  max-height: 300px;
-  max-width: 300px;
   filter: grayscale();
   background-color: #f1f1f1;
   background-image: url('../images/dilema.png');
   background-position: 50%;
   background-size: cover;
+  width: 300px;
+  max-width: 300px;
+  height: 300px;
+  max-height: 300px;
   transition: all .4s;
 }
 
@@ -2670,15 +2662,15 @@ body {
 }
 
 .picbl06 {
-  width: 300px;
-  height: 300px;
-  max-height: 300px;
-  max-width: 300px;
   filter: grayscale();
   background-color: #f1f1f1;
   background-image: url('../images/monica.png');
   background-position: 50%;
   background-size: cover;
+  width: 300px;
+  max-width: 300px;
+  height: 300px;
+  max-height: 300px;
   transition: all .4s;
 }
 
@@ -2688,13 +2680,12 @@ body {
 
 .background-video-4 {
   width: 100%;
+  max-width: 100%;
   height: 90%;
   max-height: 90%;
-  max-width: 100%;
 }
 
 .logocontainer {
-  min-width: 100%;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
   grid-template-rows: auto auto;
@@ -2702,38 +2693,39 @@ body {
   grid-auto-columns: 1fr;
   justify-content: space-around;
   align-items: stretch;
+  min-width: 100%;
   display: flex;
   position: static;
 }
 
 .logocarr {
   width: 150px;
+  max-width: 150px;
   height: 150px;
   max-height: 150px;
-  max-width: 150px;
 }
 
 .carrcontainer {
-  width: 100vw;
-  height: 200px;
-  max-height: 200px;
   background-color: var(--marron);
   justify-content: flex-start;
   align-items: center;
+  width: 100vw;
+  height: 200px;
+  max-height: 200px;
   display: flex;
   overflow: hidden;
 }
 
 .carrimages {
-  width: 100vw;
-  height: 100%;
-  max-width: none;
-  min-width: 100vw;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   flex-flow: row;
   justify-content: space-around;
   align-items: center;
+  width: 100vw;
+  min-width: 100vw;
+  max-width: none;
+  height: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
   display: flex;
@@ -2748,71 +2740,145 @@ body {
 }
 
 .carimlog {
-  width: 150px;
-  height: 150px;
   background-image: url('../images/entret.png');
-  background-position: 0 0;
+  background-position: 50%;
+  background-repeat: no-repeat;
   background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin-right: 3px;
 }
 
 .carimlog1 {
-  width: 150px;
-  height: 150px;
   background-image: url('../images/MDD.png');
-  background-position: 0 0;
+  background-position: 50%;
   background-size: cover;
+  width: 100px;
+  height: 100px;
 }
 
 .carimlog2 {
-  width: 150px;
-  height: 150px;
   background-image: url('../images/queseab.png');
   background-position: 0 0;
   background-size: cover;
+  width: 100px;
+  height: 100px;
 }
 
 .carimlog3 {
-  width: 150px;
-  height: 150px;
   background-image: url('../images/gustavol.png');
   background-position: 0 0;
   background-size: cover;
+  width: 100px;
+  height: 100px;
 }
 
 .carimlog4 {
-  width: 150px;
-  height: 150px;
   background-image: url('../images/claudial.png');
   background-position: 0 0;
   background-size: cover;
+  width: 100px;
+  height: 100px;
 }
 
 .carimlog5 {
-  width: 150px;
-  height: 150px;
   background-image: url('../images/dilemal.png');
   background-size: cover;
+  width: 100px;
+  height: 100px;
 }
 
 .carimlog6 {
-  width: 150px;
-  height: 150px;
   background-image: url('../images/monical.png');
   background-size: cover;
+  width: 100px;
+  height: 100px;
 }
 
 .carimlog7 {
-  width: 150px;
-  height: 150px;
   background-image: url('../images/roblesl.png');
   background-size: cover;
+  width: 100px;
+  height: 100px;
 }
 
 .carimlog8 {
-  width: 150px;
-  height: 150px;
   background-image: url('../images/marcelol.png');
   background-size: cover;
+  width: 100px;
+  height: 100px;
+}
+
+.carimlog9 {
+  background-image: url('../images/michelluzi.png');
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+}
+
+.carimlog10 {
+  background-image: url('../images/zitta.png');
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+}
+
+.carimlog11 {
+  background-image: url('../images/majorica.png');
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+}
+
+.picbl07 {
+  filter: grayscale();
+  background-color: #f1f1f1;
+  background-image: url('../images/zitta_1.png');
+  background-position: 50%;
+  background-size: cover;
+  width: 300px;
+  max-width: 300px;
+  height: 300px;
+  max-height: 300px;
+  transition: all .4s;
+}
+
+.picbl07:hover {
+  filter: none;
+}
+
+.picbl08 {
+  filter: grayscale();
+  background-color: #f1f1f1;
+  background-image: url('../images/michel.png');
+  background-position: 50%;
+  background-size: cover;
+  width: 300px;
+  max-width: 300px;
+  height: 300px;
+  max-height: 300px;
+  transition: all .4s;
+}
+
+.picbl08:hover {
+  filter: none;
+}
+
+.picbl09 {
+  filter: grayscale();
+  background-color: #f1f1f1;
+  background-image: url('../images/majorica_1.png');
+  background-position: 50%;
+  background-size: cover;
+  width: 300px;
+  max-width: 300px;
+  height: 300px;
+  max-height: 300px;
+  transition: all .4s;
+}
+
+.picbl09:hover {
+  filter: none;
 }
 
 @media screen and (max-width: 991px) {
@@ -2967,15 +3033,15 @@ body {
   }
 
   .brandsline {
-    height: 155px;
-    max-height: 155px;
-    max-width: none;
-    min-width: 100%;
     grid-column-gap: 100%;
     grid-row-gap: 100%;
     flex-flow: row;
     justify-content: space-around;
     align-items: center;
+    min-width: 100%;
+    max-width: none;
+    height: 155px;
+    max-height: 155px;
     overflow: hidden;
   }
 
@@ -3083,8 +3149,8 @@ body {
   }
 
   .walsh-container {
-    width: auto;
     flex: 0 auto;
+    width: auto;
   }
 
   .logocontainer {
@@ -3098,10 +3164,10 @@ body {
   }
 
   .carrimages {
-    width: auto;
-    min-width: 150vw;
     justify-content: space-around;
     align-items: center;
+    width: auto;
+    min-width: 150vw;
     margin-right: 0;
     position: static;
     left: -663px;
@@ -3113,21 +3179,21 @@ body {
 
   .carimlog {
     width: 120px;
-    height: 120px;
     min-width: 120px;
+    height: 120px;
   }
 
   .carimlog1 {
-    width: 120px;
-    height: 120px;
-    min-width: 120px;
     background-position: 50%;
+    width: 120px;
+    min-width: 120px;
+    height: 120px;
   }
 
-  .carimlog2, .carimlog3, .carimlog4, .carimlog5, .carimlog6, .carimlog7, .carimlog8 {
+  .carimlog2, .carimlog3, .carimlog4, .carimlog5, .carimlog6, .carimlog7, .carimlog8, .carimlog9, .carimlog10, .carimlog11 {
     width: 120px;
-    height: 120px;
     min-width: 120px;
+    height: 120px;
   }
 }
 
@@ -3155,10 +3221,10 @@ body {
   }
 
   .brandsline {
-    max-width: none;
-    min-width: 100%;
     grid-column-gap: 160%;
     grid-row-gap: 160%;
+    min-width: 100%;
+    max-width: none;
   }
 
   .grid {
@@ -3192,9 +3258,9 @@ body {
   }
 
   .picbl01 {
+    background-position: 50% 0;
     width: 250px;
     max-width: 250px;
-    background-position: 50% 0;
   }
 
   .whitefot {
@@ -3202,9 +3268,9 @@ body {
   }
 
   .picbl02, .picbl03 {
+    background-position: 50% 0;
     width: 250px;
     max-width: 250px;
-    background-position: 50% 0;
   }
 
   .h5 {
@@ -3255,9 +3321,9 @@ body {
 
   .logo-n, .logo-m, .logo-q, .logo-mdd {
     width: 100px;
+    max-width: 100px;
     height: 100px;
     max-height: 100px;
-    max-width: 100px;
   }
 
   .nadia {
@@ -3274,9 +3340,9 @@ body {
   }
 
   .picbl04, .picbl05, .picbl06 {
+    background-position: 50% 0;
     width: 250px;
     max-width: 250px;
-    background-position: 50% 0;
   }
 
   .quick-stack-5 {
@@ -3284,9 +3350,14 @@ body {
     grid-row-gap: 20px;
   }
 
+  .carrcontainer {
+    width: 100%;
+    overflow: hidden;
+  }
+
   .carrimages {
-    min-width: 190vw;
     justify-content: flex-start;
+    min-width: 255vw;
     margin-right: 0;
     position: static;
     left: -1038px;
@@ -3295,6 +3366,12 @@ body {
   .imagecar {
     height: 64px;
     max-height: 97px;
+  }
+
+  .picbl07, .picbl08, .picbl09 {
+    background-position: 50% 0;
+    width: 250px;
+    max-width: 250px;
   }
 }
 
@@ -3350,8 +3427,8 @@ body {
   }
 
   .title {
-    height: 100px;
     align-self: center;
+    height: 100px;
     margin-bottom: 19px;
     margin-left: 30px;
     margin-right: 30px;
@@ -3366,9 +3443,9 @@ body {
 
   .calltocontest {
     width: 88%;
+    max-width: 88%;
     height: 260px;
     max-height: 260px;
-    max-width: 88%;
   }
 
   .h2, .h2.hero2 {
@@ -3381,15 +3458,15 @@ body {
   }
 
   .brandsline {
-    width: auto;
-    height: 160px;
-    max-height: 150px;
-    max-width: none;
-    min-width: 100%;
     grid-column-gap: 248%;
     grid-row-gap: 248%;
     justify-content: space-around;
     align-items: stretch;
+    width: auto;
+    min-width: 100%;
+    max-width: none;
+    height: 160px;
+    max-height: 150px;
     overflow: hidden;
   }
 
@@ -3426,12 +3503,12 @@ body {
   }
 
   .blok1 {
-    width: auto;
-    max-width: none;
     flex-flow: row;
     align-content: stretch;
     justify-content: center;
     align-items: stretch;
+    width: auto;
+    max-width: none;
   }
 
   .newtitle {
@@ -3483,16 +3560,16 @@ body {
   }
 
   .colorcontainer {
-    height: 100%;
     background-image: none;
     background-position: 0 0;
+    height: 100%;
   }
 
   .whitefot {
-    height: 14vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 14vh;
     margin-bottom: 19px;
     margin-left: auto;
     margin-right: auto;
@@ -3551,17 +3628,17 @@ body {
   }
 
   .aboutblockstaff {
-    width: 368px;
-    height: 450px;
     flex-direction: column;
     align-items: center;
+    width: 368px;
+    height: 450px;
     display: none;
   }
 
   .textstaff {
+    align-self: center;
     width: 100%;
     height: 100%;
-    align-self: center;
   }
 
   .ppab {
@@ -3592,23 +3669,23 @@ body {
   }
 
   .agendablok {
-    height: 160px;
-    max-height: 160px;
     flex-flow: row;
     align-items: center;
+    height: 160px;
+    max-height: 160px;
     margin-top: 65px;
   }
 
   .agendablok._3 {
-    max-height: 100%;
     flex-flow: row;
+    max-height: 100%;
   }
 
   .dayblk {
     width: 70%;
+    max-width: 70%;
     height: 100px;
     max-height: 100%;
-    max-width: 70%;
   }
 
   .dayblk._2 {
@@ -3730,9 +3807,9 @@ body {
 
   .mag01 {
     width: 170px;
+    max-width: 170px;
     height: 370px;
     max-height: 370px;
-    max-width: 170px;
   }
 
   .quick-stack-4 {
@@ -3742,9 +3819,9 @@ body {
 
   .logo-n {
     width: 100px;
+    max-width: 100px;
     height: 100px;
     max-height: 100px;
-    max-width: 100px;
     margin-left: 3px;
     margin-right: 14px;
   }
@@ -3777,17 +3854,17 @@ body {
 
   .logo-m, .logo-q {
     width: 100px;
+    max-width: 100px;
     height: 100px;
     max-height: 100px;
-    max-width: 100px;
     margin-left: 3px;
     margin-right: 14px;
   }
 
   .logo-mdd {
     width: 100px;
-    height: 100px;
     max-width: 100px;
+    height: 100px;
     margin-left: 3px;
     margin-right: 14px;
   }
@@ -3800,20 +3877,20 @@ body {
   }
 
   .logn {
-    width: 150px;
-    height: 150px;
-    max-height: 150px;
-    max-width: 150px;
     background-repeat: no-repeat;
     background-size: contain;
+    width: 150px;
+    max-width: 150px;
+    height: 150px;
+    max-height: 150px;
   }
 
   .div-block-3 {
+    background-repeat: no-repeat;
     width: 150px;
+    max-width: 150px;
     height: 150px;
     max-height: 150px;
-    max-width: 150px;
-    background-repeat: no-repeat;
   }
 
   .bold-text-3 {
@@ -3821,10 +3898,10 @@ body {
   }
 
   .nadia {
-    width: 100%;
-    height: 100%;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    height: 100%;
   }
 
   .link {
@@ -3859,10 +3936,10 @@ body {
   }
 
   .walsh-hero-div-block {
-    width: 100%;
     grid-row-gap: 1.25em;
     flex-direction: column;
     align-items: center;
+    width: 100%;
   }
 
   .walsh-main-paragraph {
@@ -3874,14 +3951,11 @@ body {
   }
 
   .walsh-container {
-    width: 100%;
     flex: 0 auto;
+    width: 100%;
   }
 
   .logocontainer {
-    width: auto;
-    max-width: none;
-    min-width: 100%;
     grid-column-gap: 16px;
     grid-row-gap: 16px;
     flex-flow: row;
@@ -3889,6 +3963,9 @@ body {
     order: 0;
     justify-content: space-around;
     align-self: auto;
+    width: auto;
+    min-width: 100%;
+    max-width: none;
     display: flex;
   }
 
@@ -3898,7 +3975,7 @@ body {
   }
 
   .carrimages {
-    min-width: 333vw;
+    min-width: 450vw;
     margin-right: 0;
     position: static;
     left: -1123px;
@@ -3911,7 +3988,7 @@ body {
 }
 
 #w-node-e7ced1eb-670f-384b-7f94-d25bda72df78-2ede0b5c {
-  grid-template-rows: auto auto;
+  grid-template-rows: auto auto auto;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
