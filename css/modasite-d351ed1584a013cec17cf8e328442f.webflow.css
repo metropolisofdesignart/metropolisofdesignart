@@ -3985,6 +3985,14 @@ body {
     height: 30px;
     max-height: 30px;
   }
+
+  .picbl08 {
+    background-position: 50% 0;
+  }
+
+  .picbl09 {
+    background-position: 50% 100%;
+  }
 }
 
 #w-node-e7ced1eb-670f-384b-7f94-d25bda72df78-2ede0b5c {
